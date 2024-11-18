@@ -12,6 +12,8 @@
     vibrateButton.addEventListener('click', () => {
         if ('vibrate' in navigator) {
             navigator.vibrate(200); // 持续震动 200 毫秒
+        } else if('webkitVibrate' in navigator) {
+            navigator.vibrate(200); // 持续震动 200 毫秒
         } else {
             alert('当前设备不支持震动功能');
         }
