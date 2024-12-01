@@ -9,13 +9,17 @@
     <script src="./telegram-web-app.js"></script>
     <script>
       document.write('<script src="./env/env.js?t='+ Date.now() +'"><\/script>')
+      window.addEventListener("beforeunload", (event) => {
+        event.preventDefault();
+        event.returnValue = "您确定要离开吗？未保存的更改将会丢失。";
+      });
     </script>
-    <script type="module" crossorigin src="/assets/index-BeNHt5Ka.js"></script>
-    <link rel="stylesheet" crossorigin href="/assets/index-BC6cvaIH.css">
+    <script type="module" crossorigin src="/assets/index-CPmmLUOW.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-BHq6Cpn7.css">
   </head>
   <body>
     <div id="root">
-      <p id="loading">loading...</p>
+      <p style="text-align: center;margin-top: 80%">loading...</p>
     </div>
   </body>
 </html>
