@@ -9,11 +9,11 @@
     <script src="./telegram-web-app.js"></script>
 </head>
 <body>
-<p>url</p>
+<p style="background-color: #fff">url</p>
 <textarea type="text" id="input1" style="width: 100%;height: 100px"></textarea>
-<p>initData</p>
+<p style="background-color: #fff">initData</p>
 <textarea type="text" id="input2" style="width: 100%;height: 100px"></textarea>
-<p>startCode</p>
+<p style="background-color: #fff">startCode</p>
 <textarea type="text" id="input3" style="width: 100%;height: 100px"></textarea>
 </body>
 <script>
@@ -21,7 +21,7 @@
     const href = window.location.href;
     document.querySelector('#input1').value = href;
     document.querySelector('#input2').value = window.Telegram.WebApp.initData;
-    document.querySelector('#input3').value = new URLSearchParams(href).get('startCode') || ""
-    
+    document.querySelector('#input3').value = new URLSearchParams(window.location.search).get('startCode') || ""
+
 </script>
 </html>
