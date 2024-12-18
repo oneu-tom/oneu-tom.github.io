@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="./telegram-web-app.js"></script>
+</head>
+<body>
+<p>url</p>
+<textarea type="text" id="input1" style="width: 100%;height: 100px"></textarea>
+<p>initData</p>
+<textarea type="text" id="input2" style="width: 100%;height: 100px"></textarea>
+<p>startCode</p>
+<textarea type="text" id="input3" style="width: 100%;height: 100px"></textarea>
+</body>
+<script>
+    window.Telegram.WebApp.ready();
+    const href = window.location.href;
+    document.querySelector('#input1').value = href;
+    document.querySelector('#input2').value = window.Telegram.WebApp.initData;
+    document.querySelector('#input3').value = new URLSearchParams(href).get('startCode') || ""
+    
+</script>
+</html>
