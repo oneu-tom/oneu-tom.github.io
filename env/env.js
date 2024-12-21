@@ -8,4 +8,5 @@ window.$ou = {
     TMAUrl: 'https://t.me/tmxiongBot',
     secondOffset: 0,
     manifestUrl: 'https://oneu-tom.github.io/tonconnect-manifest.json',
+    canSkipLogin: true
 };
