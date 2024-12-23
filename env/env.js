@@ -5,7 +5,7 @@ window.$ou = {
     // apiBaseUrl: 'http://ec2-13-55-71-77.ap-southeast-2.compute.amazonaws.com',
     apiBaseUrl: 'https://oneu.tv',
     wsBaseUrl: 'wss://oneu.tv',
-    TMAUrl: 'https://t.me/tmxiongBot',
+    TMAUrl: 'https://t.me/tmxiongBot/oneU',
     secondOffset: 0,
     manifestUrl: 'https://oneu-tom.github.io/tonconnect-manifest.json',
     canSkipLogin: true
