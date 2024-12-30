@@ -10,5 +10,5 @@ window.$ou = {
     manifestUrl: 'https://oneu-tom.github.io/tonconnect-manifest.json',
     canSkipLogin: true,
     // 商户id
-    tenantId: '108432298226089985'
+    tenantId: '110132840749862913'
 };
