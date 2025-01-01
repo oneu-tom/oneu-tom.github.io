@@ -10,5 +10,7 @@ window.$ou = {
     manifestUrl: 'https://oneu-tom.github.io/tonconnect-manifest.json',
     canSkipLogin: true,
     // 商户id
-    tenantId: '110132840749862913'
+    tenantId: '110132840749862913',
+    // 最低提现佣金
+    minCommission: 10
 };
