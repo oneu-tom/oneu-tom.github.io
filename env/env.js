@@ -8,7 +8,7 @@ window.$ou = {
     TMAUrl: 'https://t.me/tmxiongBot/oneU',
     secondOffset: 0,
     manifestUrl: 'https://oneu-tom.github.io/tonconnect-manifest.json',
-    canSkipLogin: true,
+    canSkipLogin: false,
     // 商户id
     tenantId: '111340666742689792',
     // 最低提现佣金
