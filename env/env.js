@@ -13,5 +13,5 @@ window.$ou = {
     tenantId: '111340666742689792',
     // 最低提现佣金
     minCommission: 10,
-    version: '1.0.0'
+    version: '1.1.0'
 };
