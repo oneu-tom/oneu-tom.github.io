@@ -14,6 +14,6 @@ window.$ou = {
     // 最低提现佣金
     minCommission: 10,
     // 最大购买数量
-    maxPurchaseCount: 10000,
+    maxPurchaseCount: 100000,
     version: '1.6.0'
 };
