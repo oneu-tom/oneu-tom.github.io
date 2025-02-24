@@ -15,5 +15,5 @@ window.$ou = {
     minCommission: 10,
     // 最大购买数量
     maxPurchaseCount: 100000,
-    version: '1.5.0'
+    version: '1.6.0'
 };
