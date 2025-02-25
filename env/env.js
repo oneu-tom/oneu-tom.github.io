@@ -15,5 +15,7 @@ window.$ou = {
     minCommission: 10,
     // 最大购买数量
     maxPurchaseCount: 100000,
-    version: '1.6.0'
+    version: '1.6.1',
+    // 小游戏开奖时间
+    miniGameDrawTimeSeconds: 30
 };
