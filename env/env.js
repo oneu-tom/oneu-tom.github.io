@@ -9,7 +9,7 @@ window.$ou = {
     // ton钱包连接时显示图标与名称
     manifestUrl: 'https://oneu-tom.github.io/tonconnect-manifest.json',
     // 商户id
-    tenantId: '131847238522515456',
+    tenantId: '133727010991247360',
 
 
     termsOfService: 'https://oneu.com/terms-of-services',
